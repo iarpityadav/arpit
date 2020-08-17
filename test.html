@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/style.js"></script>
+</head>
+<body>
+<p id="demo">Hello World</p>
+<p id="memo"></p>
+<p id="vari">The code will go here</p>
+<button class="btn btn-primary" onclick="myfunction()">To know the time</button>
+<script>
+    var person = {
+    name : "Arpit",
+    age : 34,
+    design : "Beginner",
+};
+document.getElementById("demo").innerHTML = `Hello Billo : ${person.name} your age : ${person.age} whats your post : ${person.design}`;
+</script>
+
+<script>
+var cars =["Audi","Bmw","Ford"];
+cars[3]="Vector";
+document.getElementById("vari").innerHTML = cars;
+console.log(cars);
+</script>
+
+</body> 
+</html>
